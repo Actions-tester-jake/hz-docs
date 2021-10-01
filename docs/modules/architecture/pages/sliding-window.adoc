@@ -20,7 +20,7 @@ example:
 image:ROOT:arch-sliding-window-1.svg[Time Windowing]
 
 To compute the output for a window, you must run every item in it
-through the aggregation algorithm, and you must do this computation for
+through t aggregation algorithm, and you must do this computation for
 each window independently. Since you may receive the events out of the
 order of their occurrence, you must retain all the events until the
 window has "closed" (event time has advanced beyond the window end) and
